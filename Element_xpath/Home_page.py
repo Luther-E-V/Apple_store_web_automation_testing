@@ -1,0 +1,13 @@
+class Home_page:
+    home_page_top_xpath = "//a[contains(@class,'MuiButtonBase-root') and text()='Home']"
+    shop_page_top_xpath = "//a[contains(@class,'MuiButtonBase-root') and text()='Shop']"
+    login_page_top_xpath = "//a[contains(@class,'MuiButtonBase-root') and text()='Login']"
+    register_page_top_xpath = "//a[contains(@class,'MuiButton-text') and text()='Register']"
+    cart_page_top_xpath = "//span[contains(@class,'MuiBadge-standard')]"
+    shop_now_xpath = "//a[contains(@class,'MuiButtonBase-root') and text()='Shop Now']"
+    iphone_15_pro_max_add_to_cart_xpath ="//div[contains(@class, 'MuiPaper-root MuiPaper-elevation')][.//div[text()='iPhone 15 Pro Max']]//button[text()='Add to Cart']"
+    iphone_15_pro_max_view_detail_xpath = "//div[contains(@class, 'MuiPaper-root MuiPaper-elevation')][.//div[text()='iPhone 15 Pro Max']]//button[text()='View Details']"
+    macbook_air_m2_add_to_cart_xpath ="//div[contains(@class,'MuiPaper-root MuiPaper-elevation')][.//div[text()='MacBook Air M2']]//button[text()='Add to Cart']"
+    macbook_air_m2_view_detail_xpath = "//div[contains(@class,'MuiPaper-root MuiPaper-elevation')][.//div[text()='MacBook Air M2']]//button[text()='View Details']"
+    sony_wh_1000xm5_headphones_add_to_cart_xpath = "//div[contains(@class,'MuiPaper-root MuiPaper-elevation')][.//div[text()='Sony WH-1000XM5 Headphones']]//button[text()='Add to Cart']"
+    sony_wh_1000xm5_headphones_view_detail_xpath = "//div[contains(@class,'MuiPaper-root MuiPaper-elevation')][.//div[text()='Sony WH-1000XM5 Headphones']]//button[text()='View Details']"
